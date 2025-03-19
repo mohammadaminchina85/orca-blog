@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #001f3f, #000);
+    color: white;
+    text-align: center;
+}
+header {
+    background: black;
+    padding: 10px 0;
+}
+header h1 {
+    margin: 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.hero {
+    background: url('../images/orca.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+}
+.image-grid img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+.image-grid img:hover {
+    transform: scale(1.05);
+}
